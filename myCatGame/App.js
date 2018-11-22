@@ -92,8 +92,8 @@ export default class App extends React.Component {
     let value = this.state.gameState[row][col];
     switch(value)
     {
-      case 1: return <Icon name='close' style={styles.tileX} />;
-      case -1: return <Icon name='close' style={styles.tileO} />
+      case 1: return <Icon name='cat' style={styles.tileX} />;
+      case -1: return <Icon name='cat' style={styles.tileO} />
       default:return <View />;
     }
   }
